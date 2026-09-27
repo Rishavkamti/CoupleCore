@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Agon Preview",
+    "slug": "agon-preview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "couplecore",
+    "description": "Couples home workout app with AI daily plans, live partner progress, and fun accountability.",
+    "primaryColor": "#FF4D6D",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.couplecore.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "CoupleCore",
+        "LSRequiresIPhoneOS": true,
+        "UIRequiresFullScreen": false
+      }
+    },
+    "android": {
+      "package": "com.couplecore.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0F0A1A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "CoupleCore",
+      "shortName": "CoupleCore",
+      "themeColor": "#FF4D6D",
+      "backgroundColor": "#0F0A1A"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "owner": "arcadalabs",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
